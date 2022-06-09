@@ -12,7 +12,7 @@ closeMenu.addEventListener('click', ()=>{
     navMenu.classList.remove('show')
 })
 // remove menu
-const navLink = document.querySelectorAll('nav__link')
+const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     navMenu.classList.remove('show')
@@ -38,3 +38,4 @@ function scrollActive(){
         }
     })
 }
+
