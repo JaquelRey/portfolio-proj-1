@@ -492,7 +492,7 @@ p.about__description{
 }
 /* Contact */
 
-/* trying to align abbout information left only on mobile */
+/* mobile stuff */
 @media screen and (max-width: 480px) {
     
     .nav__menu{
