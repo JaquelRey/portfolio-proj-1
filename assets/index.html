@@ -20,11 +20,11 @@
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
-
+                <!--arrow that jumps to the top  -->
                 <div>
-                    <a href="#" class="nav__logo">Jump to top</a>
+                    <a href="#" class="nav__logo"><i class='bx bxs-chevron-up'></i></a>
                 </div>
-
+                <!--nav menu  -->
                 <div class="nav__menu" id="nav-menu">
                     <div class="nav__close" id="nav-close">
                         <i class='bx bx-x'></i>
@@ -36,6 +36,7 @@
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    
                     </ul>
                 </div>
 
@@ -67,7 +68,9 @@
                             <a href="https://uconn.bootcampcontent.com/jaquelrey" class="home__social-link"><i class='bx bxl-gitlab'></i></a>
                             <a href="https://crouton.net/" class="home__social-link"><i class='bx bx-link-external'></i></a>
                         </div>
-                        <a href="https://www.youtube.com/watch?v=Tim5nU3DwIE" class="button home__button">Does this button have a purpose?</a>
+                        <a href="https://www.youtube.com/watch?v=Tim5nU3DwIE" class="button home__button">
+                            Download my resume
+                        </a>
                     </div>
                 </div>
             </section>
@@ -75,45 +78,21 @@
             <section class="about section" id="about">
                 <span class="section-subtitle">What the heck is going on?</span>
                 <h2 class="section-title">About me</h2>
-
+                    <!-- about descriptiom -->
                 <div class="about__container bd-grid">
                     <div class="about__data">
-                        <p class="about__description">I literally have no clue what is going on at any given moment. I choose to not percieve anything, and I cannot wait to turn into dirt filled with worms.</p>
+                        <p class="about__description">I'm a student web developer and I have two cats :)
+                            <br><br>
+
+                            I have no clue what is going on at any given moment. I choose to not percieve anything, and I cannot wait to turn into dirt filled with worms.
+                        </p>
                         <div class="about__img">
                         <img src="img\judgement.png" alt="A kitty in a box." class="about__img">
                     </div>
 
-                    <!-- actual info part -->
+                    <!-- additional info part -->
 
                     <div>
-                        <div class="about__information">
-                            <h3 class="about__information-title">Information | Contact</h3>
-                            <div class="about__information-data">
-                                <i class='bx bx-bell-off about__information-icon'></i>
-                                    <div>
-                                        <span class="about__information-subtitle">Actually  :</span>
-                                        <span class="about__information-subtitle-small">Just kidding please don't contact me.</span>
-                                    </div>
-                            </div>
-    
-                            <div class="about__information-data">
-                                <i class='bx bxs-envelope about__information-icon'></i>
-                                    <div>
-                                        <span class="about__information-subtitle">Email:</span>
-                                        <span class="about__information-subtitle-small">Jaquelrey@gmail.com</span>
-                                    </div>
-                            </div>
-
-                            <div class="about__information-data">
-                                <i class='bx bxs-bell-ring about__information-icon'></i>
-                                    <div>
-                                        <span class="about__information-subtitle">Discord:</span>
-                                        <span class="about__information-subtitle-small">Jaquel#4343</span>
-                                    </div>
-                            </div>
-    
-                        </div>
-    
                         <div class="about__information">
                             <h3 class="about__information-title">Experience and Availibility</h3>
         
@@ -135,12 +114,16 @@
                         </div>
 
                         <div class="about__information">                        
-                            <h3 class="about__information-title">Who are those cats?</h3>
+                            <h3 class="about__information-title">Kitty Cat Stats:</h3>
                             <div class="about__information-data">
                                 <i class='bx bxs-cat about__information-robert'></i>
                                     <div>
                                         <span class="about__information-subtitle">Robert:</span>
-                                        <span class="about__information-subtitle-small">Grey and white kitty</span>
+                                        <span class="about__information-subtitle-small">
+                                            Male | 15 y/o
+                                            <br>
+                                            Grey and white kitty
+                                        </span>
                                     </div>
                             </div>
     
@@ -148,7 +131,11 @@
                                 <i class='bx bxs-cat about__information-yuki'></i>
                                     <div>
                                         <span class="about__information-subtitle">Yukiko:</span>
-                                        <span class="about__information-subtitle-small">Tortiseshell fatty</span>
+                                        <span class="about__information-subtitle-small">
+                                            Female | 13 y/o
+                                            <br>
+                                            Tortiseshell fatty
+                                        </span>
                                     </div>
                             </div>
                         </div>
@@ -180,13 +167,13 @@
                     <div class="skills__content">
                         <i class='bx bxs-edit skills__icon'></i>
                         <h3 class="skills__title">Graphic Design</h3>
-                        <p class="skills__description">I can make some mean logos, banners, and any other graphic you may need.</p>
+                        <p class="skills__description">I can make logos, banners, posters, and many other graphics.</p>
                     </div>
 
                     <div class="skills__content">
                         <i class='bx bxs-paint skills__icon'></i>
                         <h3 class="skills__title">Digital Illustration</h3>
-                        <p class="skills__description">I've been smashing a pen against a tablet for 10 years. One could say I'm practiced :)</p>
+                        <p class="skills__description">I've been honing my skills for over 10 years, and I'm proficent in many programs.</p>
                     </div>
                 </div>
             </section>
@@ -196,85 +183,113 @@
                 <h2 class="section-title">Featured Work</h2>
 
                 <div class="works__container bd-grid">
-                    <!-- card1 -->
-                    <div class="works__img1">
-                        <img src="img\w1.jpg"  class="works__images" alt="kitty wink and blep">
+                    <!-- featured work -->
+                    <div class="works__images" id="works__featured">
+                        <a href="#" class="works__link"><img src="img\w1.jpg"  class="works__images" alt="kitty wink and blep">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Featured</span>
+                            <i class='bx bx-pointer'></i><span>Featured</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card2 -->
-                    <div class="works__img2">
-                        <img src="img\w2.jpg" class="works__images" alt="">
+                    <!-- image 1 -->
+                    <div class="works__images" id="works__img1">
+                        <a href="#" class="works__link"><img src="img\w2.jpg" class="works__images" alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 1</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card3 -->
-                    <div class="works__img3">
-                        <img src="img\w3.jpg" class="works__images"  alt="">
+                    <!-- image 2 -->
+                    <div class="works__images" id="works__img2">
+                        <a href="#" class="works__link"><img src="img\w3.jpg" class="works__images"  alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 2</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card4 -->
-                    <div class="works__img4">
-                        <img src="img\w4.jpg" class="works__images"  alt="">
+                    <!-- image 3-->
+                    <div id="works__img3">
+                        <a href="#" class="works__link"><img src="img\w4.jpg" class="works__images"  alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 3</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card5 -->
+                    <!-- image 4 -->
 
-                    <div class="works__img5">
-                        <img src="img\w5.jpg" class="works__images"  alt="">
+                    <div id="works__img4">
+                        <a href="#" class="works__link"><img src="img\w5.jpg" class="works__images"  alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 4</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card6 -->
-                    <div class="works__img6">
-                        <img src="img\w6.jpg" class="works__images"  alt="">
+                    <!--  image 5 -->
+                    <div id="works__img5">
+                        <a href="#" class="works__link"><img src="img\w6.jpg" class="works__images"  alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 5</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
 
 
-                    <!-- card7 -->
-                    <div class="works__img7">
-                        <img src="img\w7.jpg" class="works__images"  alt="">
+                    <!-- image 6 -->
+                    <div id="works__img6">
+                        <a href="#" class="works__link"><img src="img\w7.jpg" class="works__images"  alt="">
 
                         <div class="works__data">
-                            <a href="#" class="works__link"><i class='bx bx-pointer'></i></a>
-                            <span class="works__title">Kitty 6</span>
+                            <i class='bx bx-pointer'></i><span>Kitty</span>
+                        </a>
                         </div>
                     </div>
-                </div>
             </section>
             <!-- Contact -->
+            <section class="contacts section" id="contact">
+                <div class="about__information">
+                    <h3 class="about__information-title">Information | Contact</h3>
+                    <div class="about__information-data">
+                        <i class='bx bx-bell-off about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Actually  :</span>
+                                <span class="about__information-subtitle-small">Just kidding please don't contact me.</span>
+                            </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bxs-envelope about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Email:</span>
+                                <span class="about__information-subtitle-small">Jaquelrey@gmail.com</span>
+                            </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bxs-bell-ring about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Discord:</span>
+                                <span class="about__information-subtitle-small">Jaquel#4343</span>
+                            </div>
+                    </div>
+
+                </div>
+            </section>
         </main>
         <!--FOOTER-->
         <!--JS-->

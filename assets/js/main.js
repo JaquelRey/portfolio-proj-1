@@ -1,7 +1,7 @@
-// hide and show menu
-const navMenu = document.getElementById('nav-menu'),
-    toggleMenu = document.getElementById('nav-toggle'),
-    closeMenu = document.getElementById('nav-close')
+// variuables that select the nav menu div, nav menu toggle 'button', and nav menu
+const navMenu = document.getElementById('nav-menu');
+const toggleMenu = document.getElementById('nav-toggle');
+const closeMenu = document.getElementById('nav-close');
 
 // show
 toggleMenu.addEventListener('click', ()=>{
@@ -18,7 +18,7 @@ function linkAction(){
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-// scroll sections active link
+// scroll to a section's active link
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
